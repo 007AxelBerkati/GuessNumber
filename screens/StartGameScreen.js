@@ -3,7 +3,7 @@ import React from "react";
 
 const StartGameScreen = () => {
   return (
-    <View>
+    <View style={styles.screen}>
       <Text>StartGameScreen</Text>
     </View>
   );
@@ -11,4 +11,11 @@ const StartGameScreen = () => {
 
 export default StartGameScreen;
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  screen: {
+    flex: 1,
+    padding: 10,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+});
